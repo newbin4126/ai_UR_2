@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css';
+// Styles are handled via CDN in index.html to ensure consistency
+// import './index.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
